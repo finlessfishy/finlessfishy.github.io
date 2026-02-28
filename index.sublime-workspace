@@ -1,0 +1,311 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"En",
+				"EnableDelayedExpansion"
+			],
+			[
+				"but",
+				"buttonx"
+			],
+			[
+				"bu",
+				"buttontext"
+			],
+			[
+				"in",
+				"interactselection"
+			],
+			[
+				"m",
+				"menuselection"
+			],
+			[
+				"dr",
+				"drawbutton"
+			],
+			[
+				"me",
+				"menuselection"
+			],
+			[
+				"sav",
+				"savedata"
+			],
+			[
+				"l",
+				"load"
+			],
+			[
+				"se",
+				"setShader"
+			],
+			[
+				"U",
+				"Update"
+			],
+			[
+				"s",
+				"sprite"
+			],
+			[
+				"mon",
+				"moneyperclick"
+			],
+			[
+				"spe",
+				"speedperclick"
+			],
+			[
+				"spr",
+				"sprite"
+			],
+			[
+				"mo",
+				"moneyperclick"
+			],
+			[
+				"fis",
+				"fishspeed"
+			],
+			[
+				"NEW",
+				"newImage"
+			],
+			[
+				"re",
+				"resetcolor"
+			],
+			[
+				"FIS",
+				"fishspeedperclick"
+			],
+			[
+				"fi",
+				"fishspeed"
+			],
+			[
+				"up",
+				"upgradecost"
+			],
+			[
+				"pla",
+				"playbuttonh"
+			],
+			[
+				"pl",
+				"playbuttonh"
+			],
+			[
+				"play",
+				"playbuttonw"
+			],
+			[
+				"f",
+				"fishspeed"
+			],
+			[
+				"buttonh",
+				"buttonheight"
+			],
+			[
+				"b",
+				"buttonwidth"
+			],
+			[
+				"fn",
+				"func"
+			],
+			[
+				"sc",
+				"screenheight"
+			],
+			[
+				"scre",
+				"screenwidth"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 131.199996948,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/finle/Downloads/Desktop/project/code/shaders.lua",
+		"/C/Users/finle/Downloads/Desktop/project/conf.lua",
+		"/C/Users/finle/Documents/libresprite/batch.txt",
+		"/C/Users/finle/Downloads/Desktop/project/main.lua",
+		"/C/Users/finle/Documents/finlessfishy.github.io/index.html",
+		"/C/Users/finle/Downloads/Desktop/open dev stuff.txt",
+		"/C/Users/finle/Documents/batch.txt",
+		"/C/Users/finle/AppData/Roaming/LibreSprite/scripts/bulkexport.lua",
+		"/C/Users/finle/Documents/libresprite/bulkexport.lua",
+		"/C/Users/finle/Downloads/Desktop/LOVE.lnk",
+		"/C/Users/finle/Downloads/Desktop/project/libraries/lume/lume.lua",
+		"/C/Users/finle/Downloads/Desktop/project/code/savedata.lua",
+		"/C/Users/finle/Downloads/Desktop/project/assets/themes/fonts/steelfish rg it.ttf",
+		"/C/Users/finle/Downloads/Desktop/project/code/game.lua",
+		"/C/Users/finle/Downloads/Desktop/project/code/menu.lua",
+		"/C/Users/finle/Documents/lua/main/main.lua",
+		"/C/Users/finle/Documents/python/game1/game1",
+		"/C/Users/finle/Documents/python/testgame1"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
