@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	
+    <head>
+		
+        <title>
+			panda archive
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">	
+        
+    </head>
+    
+    <style>
+    	body {
+    		background-color: white;
+
+			font-size: 16px;
+		}
+
+		p {
+			color: deeppink;
+			text-align: center;
+		}
+
+    	.font {
+    		text-align: center;
+    		color: pink;
+    		font-family: Arial;
+    	}
+    	
+    	.emoji {
+    		text-align: center;
+    		color: pink;
+    		font-family: Arial;
+    		line-height: 0.6;
+    	}
+
+    	.summary {
+    		text-align: center;
+    		color: pink;
+    		font-family: Arial;
+    		margin: 10px;
+    	}
+    </style>
+    
+    <script>
+
+	</script>
+    
+    <body>
+
+    	<div class="font" style="color: deeppink;"><a href="../index.html"class="font">back</a></div>
+
+    	<div class="font">
+    		<h1>
+    			panda archive
+    		</h1>
+    	</div>
+
+    	<div>
+			<details open id="id_quotes">
+				<summary class="summary" id="id_s_quotes">
+					quotes
+				</summary>
+
+				<p>"i like how birds sound like marbles"</p>
+				<p>"GOODNIGHT SLEEPTIGHT DONT LRT THE BEF BIGS BITE" "None of that w as s spelt correctly"</p>
+				<p>"that was my noises"</p>
+				<p>"Hi" "I wS adleep" "1" "21" "1😭😭😭"</p>
+				<p>"i ates it all"</p>
+				<p>"I'm the master at deceiving texts" "Decievi bff?" "I meang" "Meant" "Uhm" "Idk hwo spelt" "Wrmmm" "Deciphering"</p>
+			</details>
+		</div>
+
+		<div>
+			<center>
+				<details id="id_pictures">
+					<summary class="summary" id="id_s_pictures">
+						pictures
+					</summary>
+
+					<img src="../panda.jpg" width="386" height="515">
+					<img src="../panda_emoji.jpg" width="386" height="515">
+					<img src="../panda_sleep.gif" width="386" height="515">
+					<img src="../panda_floor.jpg" width="386" height="515">
+					<img src="../panda_thank.gif" width="386" height="515">
+					<img src="../panda_adleep.png" width="386" height="515">
+					<img src="../panda_glitch.gif" width="386" height="515">
+				</details>
+			</center>
+		</div>
+
+		<script>
+			const count_quotes = document.getElementById('id_quotes').querySelectorAll('p').length;
+			const count_pictures = document.getElementById('id_pictures').querySelectorAll('img').length;
+
+			document.getElementById("id_s_quotes").innerHTML = `quotes (${count_quotes})`
+			document.getElementById("id_s_pictures").innerHTML = `pictures (${count_pictures})`
+		</script>
+
+    </body>
+    
+</html>
