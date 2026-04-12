@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<title>
+			FSS5 Browser Demo
+		</title>
+		
+		<link rel="icon" type="image/x-icon" href="../fish.png">
+		
+		<script>
+			const fish = document.getElementById('fishid');
+			
+			let rotation = 0
+			
+			let speed = 1;
+			let money = 0;
+			
+			let goal = 25;
+			
+			function ready() {
+				updateui();
+				rotatefish();
+			}
+			
+			function updateui() {
+				document.getElementById("speedid").innerHTML = speed;
+				document.getElementById("moneyid").innerHTML = money;
+				
+				document.getElementById("goalid").innerHTML = goal;
+			}
+			
+			function rotatefish() {
+				if (rotation == 0) {
+					document.getElementById('fishid').src = "../fish1.png";
+					
+					rotation = 1;
+				} else if (rotation == 1) {
+					document.getElementById('fishid').src = "../fish2.png";
+					
+					rotation = 0;
+				}
+				
+				updateui();
+			}
+			
+			function petfish() {
+				speed += 1;
+				
+				if (speed > goal) {
+					completegoal();
+				}
+				
+				updateui();
+			}
+			
+			function completegoal() {
+				let newgoal = goal * 1.8;
+				
+				newgoal = Math.round(newgoal);
+				
+				goal = newgoal;
+				
+				money += 1; 
+			}
+		</script>
+		
+		<style>
+			
+			.header {
+				text-align: center;
+				font-family: Arial;
+				font-size: 25px;
+				color: white;
+			}
+			
+			.button {
+				text-align: center;
+				font-family: Arial;
+				color: rgb(0, 0, 0);
+				padding-right: 10px;
+				padding-left: 10px;
+				padding-top: 7px;
+				padding-bottom: 7px;
+			}
+			
+			.hover {
+				font-family: Arial;
+				padding-right: 10px;
+				padding-left: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+			
+			.font {
+	    		text-align: center;
+	    		color: pink;
+	    		font-family: Arial;
+	    	}
+			
+			.font_black {
+	    		text-align: center;
+	    		color: Black;
+	    		font-family: Arial;
+	    	}
+		</style>
+		
+	</head>
+	
+	<body id="bodyid"
+	style="background-color: black;"
+	onload="ready()">
+
+		<div class="font" style="color: deeppink;"><a href="../index.html"class="font">back</a></div>
+		
+		<h1 class="header"
+		id="headerid"
+		style="font-family: 'Times New Roman', Arial;">
+			<b class="font">
+				Fish Spinning Simulator Browser Edition
+			</b>
+		</h1>
+		
+		<p class="font">
+			Speed:
+		</p>
+		
+		<p id="speedid"
+		class="font">
+			?
+		</p>
+		
+		<br>
+		
+		<p class="font">
+			Money:
+		</p>
+		
+		<p id="moneyid"
+		class="font">
+			?
+		</p>
+		
+		<center>
+			<img id="fishid"
+			src="../fish1.png" alt="fish"
+			style="width:200px;height:200px;">
+		</center>
+		
+		<p class="font">
+			Goal:
+		</p>
+		
+		<p id="goalid"
+		class="font">
+			?
+		</p>
+		
+		<center>
+			<button class="button"
+			id="petfishid"
+			onclick="petfish()">
+				<div class="font_black">
+					Pet Fish
+				</div>
+			</button>
+			
+			<button class="button"
+			id="turnleftid"
+			onclick="rotatefish()">
+				<div class="font_black">
+					Turn Fish
+				</div>
+			</button>
+		</center>
+		
+	</body>
+	
+</html>
